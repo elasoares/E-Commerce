@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bar-container{
+	background-color: #f72585;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+  justify-content: space-between;
+	flex-wrap: wrap;
+	box-shadow:
+		1.3px 7.4px 8.4px rgba(0, 0, 0, 0.065),
+		4.5px 25px 28.4px rgba(0, 0, 0, 0.095),
+		20px 112px 127px rgba(0, 0, 0, 0.16)
+	;
+	position: above;
+	top:0;
+	left:0;
+	right:0;
+}
+
+
+.inputForm{
+	border-radius: 5px 0 0 5px;
+	border: none;
+	padding: 5px;
+	margin-left: 10px;
+	width: 150px;
+	margin-right: 2px;
+}
+
+.titulo{
+	font-family: 'Gravitas One' , cursive;
+	font-size: 1rem;
+	color: #f4f0bb;
+	border-bottom: 1px solid #eb5e28;
+	padding: 5px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.icon{
+	color: #f4f0bb;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 40px;
+	cursor: pointer;
+}
+.icon:hover{
+	opacity:0.8;
+}
+
+
+
+
+
+@media (min-width: 530px){
+	.inputForm{
+		width: 250px;
+	}
+}
+
+@media (min-width: 550px){
+	.login{
+		font-size: clamp(0.8rem, 1.5vw, 1rem);;
+	}
+	.inputForm{
+		width: 350px;
+	}
+}
+@media (min-width: 600px){
+	.login{
+		font-size: clamp(0.8rem, 1.5vw, 1rem);;
+	}
+	.inputForm{
+		width: 400px;
+	}
+}

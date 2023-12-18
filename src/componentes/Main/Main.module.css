@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans+Condensed&family=Fuzzy+Bubbles&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
+
+
+.cardMain{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 100% !important;
+	background-color: #588157;
+	padding: 25px;
+}
+
+.imagemMain{
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	
+}
+
+.imagemMacacosBackground{
+	background-color: #344e41;
+	border-radius: 150px;
+}
+
+
+
+.paragrafoOferta{
+	font-family: 'Fuzzy Bubbles';
+	font-size: 25px;
+	color: #f4f0bb;
+}
+
+.tituloOferta{
+	font-family: 'Gravitas One' , cursive;
+	font-size: 50px;
+}
+
+.desconto{
+	font-family: 'Gravitas One' , cursive;
+	font-size: 25px;
+	color: #a41623;
+}
+
+.informacaoNaPropaganda{
+	 font-family: 'Kite One';
+	font-size: 20px;
+	padding: 10px;
+	color: #f4f0bb;
+}
+
+.botao{
+	cursor: pointer;
+	background-color: #eb4b98;
+	color:#f4f0bb;
+	padding: 8px 8px;
+	border: none;
+	border-radius: 10px;
+	box-shadow:
+		2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+		6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+		12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+		22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+		41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+		100px 100px 80px rgba(0, 0, 0, 0.07)
+	;
+	margin: 20px;
+}
+
+.botao:hover{
+	background-color: #f4f0bb;
+	color: #eb4b98;
+}
+
+
+
+.laranja{
+	color: #fa9500;
+}
+
+.amarelo{
+	color: #eeba0b;
+}
+.rosa{
+	color: #eb4b98;
+}
+.verde{
+	color: #0fa3b1;
+}
+
+
+
+@media screen and (min-width: 650px){
+	.cardMain{
+		background-color: #588157;
+		border-radius: 5% 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+
+	}
+	.imagemMain{
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+
+	}
+
+
+	.paragrafoOferta{
+		font-family: 'Fuzzy Bubbles';
+		font-size: 40px;
+		color: #f4f0bb;
+	}
+
+	.tituloOferta{
+		font-family: 'Gravitas One' , cursive;
+		font-size: 55px;
+		color: #f4f0bb;
+
+	}
+
+	.desconto{
+		font-family: 'Gravitas One' , cursive;
+		font-size: 25px;
+		color: #f4f0bb;
+	}
+
+	.informacaoNaPropaganda{
+		 font-family: 'Kite One';
+		font-size: 20px;
+		color: #f4f0bb;
+
+	}
+
+}
+
+
+
+@media screen and (min-width: 800px){
+	.cardMain{
+		background-color: #588157;
+		border-radius: 20% 80% 10% 30px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+
+	}
+	.imagemMain{
+		width: 350px;
+		height: 350px;
+		object-fit: cover;
+
+	}
+
+
+	.paragrafoOferta{
+		font-family: 'Fuzzy Bubbles';
+		font-size: 35px;
+		color: #f4f0bb;
+	}
+
+	.tituloOferta{
+		font-family: 'Gravitas One' , cursive;
+		font-size: 75px;
+		color: #f4f0bb;
+
+	}
+
+	.desconto{
+		font-family: 'Gravitas One' , cursive;
+		font-size: 25px;
+		color: #f4f0bb;
+	}
+
+	.informacaoNaPropaganda{
+		 font-family: 'Kite One';
+		font-size: 18px;
+		color: #f4f0bb;
+
+	}
+
+}
+

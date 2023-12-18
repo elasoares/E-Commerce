@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans+Condensed&family=Fuzzy+Bubbles&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
+/* ==========================  */
+
+.stars{
+	color: #ffd60a;
+}
+.titulo{
+		padding: 10px;
+		font-size: 15px;
+		font-weight: 200;
+		font-family: 'Fuzzy Bubbles';
+		font-weight: bold;
+	}
+
+.container-titulo{
+text-align:center;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}

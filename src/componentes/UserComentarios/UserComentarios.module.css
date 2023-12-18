@@ -1,0 +1,78 @@
+.userComentariosContainer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.containerDoProduto{
+	text-align: center;
+	width: 310px;
+	margin-bottom: 25px;
+	border: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+.userComentariosAvatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+.userComentariosInfo {
+	flex: 1;
+}
+
+
+.containerNome{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+.userComentariosName {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.container{
+	margin-bottom: 20px;
+}
+
+.userComentariosDados {
+	font-size: 12px;
+	color: #888;
+}
+
+.infoDaPublicação{
+	font-size: 16px;
+}
+
+.imgDoProduto{
+	width: 300px;
+	height: 200px;
+	obejct-fit: cover;
+	border-radius: 5px;
+}
+
+.enviarButton{
+	cursor: pointer;
+	background-color: #eb4b98;
+	color:#f4f0bb;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 10px;
+	box-shadow:
+		2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+		6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+		12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+		22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+		41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+		100px 100px 80px rgba(0, 0, 0, 0.07)
+	;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* ------------------------------------------  */
+
+a{
+	text-decoration: none;
+	color: #f4f0bb;
+}
+
+
+
+
+.cardProduto{
+	width: auto;
+	height: auto;
+	display: flex;
+
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border: none;
+	box-shadow:
+		0.2px 1.8px 2.7px rgba(0, 0, 0, 0.034),
+		0.6px 4.5px 6.9px rgba(0, 0, 0, 0.049),
+		1.2px 9.2px 14.2px rgba(0, 0, 0, 0.061),
+		2.6px 19px 29.2px rgba(0, 0, 0, 0.076),
+		7px 52px 80px rgba(0, 0, 0, 0.11)
+	;
+}
+.cardProduto:hover{
+	box-shadow:
+		0.2px 1.8px 2.7px rgba(0, 0, 0, 0.024);
+}
+
+.imgProduto{
+	width: 250px;
+	height: 170px;
+	object-position: center;
+	object-view-box: center;
+	border-radius: 5px 5px 0 0;
+}
+
+/* ============================ */
+
+.paragrafoDoProduto{
+	font-family: 'Roboto';
+	font-size: 15px;
+	width: 200px;
+}
+
+
+
+/* ============================ */
+
+.titulo{
+	font-family: 'Roboto';
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+	padding:5px;
+}
+
+.paragrafo{
+	font-family: 'Roboto';
+	font-size: 15px;
+	padding: 5px;
+
+}
+
+.precoDoProduto{
+	font-family: 'Gravitas One' , cursive;
+	font-weight: 500;
+	font-size: 20px;
+	padding: 5px;
+	color: #2a9d8f;
+}
+
+
+/*  ================================ */
+
+.botao{
+	font-size: 15px;
+	padding: 5px;
+	color: #f4f0bb;
+	background-color: #2a9d8f;
+	border: none;
+	border-radius: 0 0 5px 5px;
+	cursor: pointer;
+	box-shadow:
+		2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+		6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+		12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+		22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+		41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+		100px 100px 80px rgba(0, 0, 0, 0.07)
+	;
+}
+
+.botao:hover{
+	opacity: 0.5;
+	font-weight: 500;
+}
+
+.botao-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+	padding-bottom: 10px;
+}
+

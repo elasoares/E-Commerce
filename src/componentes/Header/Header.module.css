@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans+Condensed&display=swap');
+
+li{
+	list-style: none;
+}
+
+.header-container{
+	background-color: #7209b7;
+	box-shadow:
+		1.1px 8.4px 32.5px rgba(0, 0, 0, 0.105),
+		3.8px 28.4px 109px rgba(0, 0, 0, 0.155),
+		17px 127px 488px rgba(0, 0, 0, 0.26)
+	;
+	
+}
+
+.header-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	gap: 5px;
+}
+
+.header-items{
+	color: #f4f0bb;
+	font-family: 'Archivo Narrow' , sans-serif;
+	font-weight: 200;
+	font-size:clamp(0.6rem, 1vw, 1rem);
+}
+.header-items:hover{
+	opacity: 0.8;
+	cursor:pointer;
+	border-bottom: 1px solid #eb5e28;
+	border-radius: 50px;
+}
+
+
+.icon{
+	color: #f4f0bb;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 40px;
+	cursor: pointer;
+}
+.icon:hover{
+	opacity:0.8;
+}
+
+.selecionado {
+	background-color: #7209b7;
+	color: #f4f0bb;
+	border: none;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: 200;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 100px;
+	font-size:clamp(0.6rem, 1vw, 1rem);
+}
+
+
+.selecionado:focus {
+	outline: none;
+	border: 1px solid #eb5e28;
+}
+
+.selecionado .opcao {
+	background-color: #7209b7;
+	color: #f4f0bb;
+}
+
+
+
+
+
+@media (min-width: 580px){
+	.header-list{
+	display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.header-items{
+		font-size: clamp(0.8rem, 1.5vw, 1rem);
+	}
+
+	.selecionado{
+		font-size: clamp(0.8rem, 1.5vw, 1rem);
+	}
+}
