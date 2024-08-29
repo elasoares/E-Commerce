@@ -3,7 +3,7 @@
 	border: 1px solid #ccc;
 	border-radius: 0 5px 5px 0;
 	color: #f4f0bb;
-	padding: 5px;
+	padding: 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -14,4 +14,3 @@
 .botao:hover{
 	opacity:0.8;
 }
-

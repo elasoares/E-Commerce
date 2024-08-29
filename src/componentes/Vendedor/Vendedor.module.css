@@ -20,26 +20,31 @@
 	width: 100%;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 	cursor: pointer;
+	height: 80px;
+	line-height: 50px;
 }
 
 .titulo{
 	padding: 10px;
-	font-size: 15px;
+	font-size: 22px;
 	font-weight: 200;
-	font-family: 'Fuzzy Bubbles';
+	font-family: 'Archivo Narrow' , sans-serif;
 	font-weight: bold;
+	color: black;
 }
 
 .informacao-vendedor{
 	font-weight: 200;
 	font-family: 'Archivo Narrow' , sans-serif;
 	font-size: 20px;
+	color: black;
 }
 
 .descricao-vendedor{
 	font-weight: 100;
 	font-family: 'Archivo Narrow' , sans-serif;
-	font-size: 15px;
+	font-size: 20px;
+	color: black;
 }
 
 .descricao-span{
@@ -54,7 +59,8 @@
 }
 
 .avaliacao-vendedor{
-	font-size: 17px;
+	font-size: 20px;
+	color: black;
 }
 
 
@@ -62,7 +68,8 @@
 	font-weight: 200;
 	font-style: italic;
 	font-family: 'Archivo Narrow' , sans-serif;
-	font-size: 15px;
+	font-size: 20px;
+	color: black;
 }
 
 

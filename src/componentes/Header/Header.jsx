@@ -15,11 +15,11 @@ export function Header() {
 
 
 							<Select className={styles.selecionado} option={option} onChange={(opcao) => setOption(opcao)}>
-								<option className={styles.opcao} value="blind-guardian">Produtos </option>
-								<option className={styles.opcao} value="blind-guardian">T-Shirt rosa unissex</option>
-								<option className={styles.opcao} value="iron-maiden">T-Shirt bege com manga longa unissex</option>
-								<option className={styles.opcao} value="hammerfall">Gola polo azul claro unissex</option>
-								<option className={styles.opcao} value="rhapsody-of-fire">T-Shirt Branca unissex</option>
+								<option className={styles.opcao} value="produto">Produtos </option>
+								<option className={styles.opcao} value="t-shirt-rosa">T-Shirt rosa unissex</option>
+								<option className={styles.opcao} value="t-shirt-bege">T-Shirt bege com manga longa unissex</option>
+								<option className={styles.opcao} value="Gola-poloazul">Gola polo azul claro unissex</option>
+								<option className={styles.opcao} value="t-shirt-branca">T-Shirt Branca unissex</option>
 
 							</Select>
 
@@ -32,7 +32,7 @@ export function Header() {
 						<CiLogin className={styles.icon} />
 					</ul>
 				</nav>
-			</header >
+			</header>
 		</>
 	);
 }

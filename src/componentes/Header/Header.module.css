@@ -11,7 +11,7 @@ li{
 		3.8px 28.4px 109px rgba(0, 0, 0, 0.155),
 		17px 127px 488px rgba(0, 0, 0, 0.26)
 	;
-	
+	height: auto;
 }
 
 .header-list{
@@ -58,7 +58,8 @@ li{
 	font-weight: 200;
 	cursor: pointer;
 	border-radius: 50px;
-	width: 100px;
+	width: 150px;
+	padding: 2px;
 	font-size:clamp(0.6rem, 1vw, 1rem);
 }
 
