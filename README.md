@@ -20,5 +20,5 @@ Este é um projeto desenvolvido na faculdade utilizando **React.js** e **Vite** 
 
 ### 1️⃣ Clone o repositório
 ```sh
-git clone https://github.com/seu-usuario/e-commerce.git
+git clone https://github.com/elasoares/E-Commerce.git
 
